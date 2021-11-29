@@ -1,0 +1,147 @@
+.screen {
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+}
+
+.title {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 80px;
+  text-align: center;
+  margin: 60px;
+  color: #004241;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sedans {
+  background-color: #e38826;
+  max-width: 300px;
+  border-radius: 10px 0px 0px 10px;
+  margin-top: 10px;
+}
+.sedans_image {
+  max-width: 70px;
+  max-height: 70px;
+  object-fit: cover;
+  padding: 40px 20px 0px 40px;
+}
+.sedans_heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #f2f2f2;
+  padding: 50px 20px 0px 40px;
+}
+.sedans_description {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 50px 50px 0px 40px;
+  line-height: 20px;
+}
+.sedans_button {
+  border: 1px solid #f2f2f2;
+  border-radius: 40px;
+  color: #e38826;
+  background-color: #f2f2f2;
+  padding: 13px 28px 13px 28px;
+  margin: 80px 60px 40px 80px;
+}
+.sedans_button:hover {
+  background-color: #006970;
+  cursor: pointer;
+  color: #f2f2f2;
+}
+
+.suvs {
+  background-color: #006970;
+  max-width: 300px;
+  margin-top: 10px;
+}
+.suvs_image {
+  max-width: 70px;
+  max-height: 70px;
+  object-fit: cover;
+  padding: 40px 20px 0px 40px;
+}
+.suvs_heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #f2f2f2;
+  padding: 50px 20px 0px 40px;
+}
+.suvs_description {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 50px 50px 0px 40px;
+  line-height: 20px;
+}
+.suvs_button {
+  border: 1px solid #f2f2f2;
+  border-radius: 40px;
+  color: #006970;
+  background-color: #f2f2f2;
+  padding: 13px 28px 13px 28px;
+  margin: 80px 60px 40px 80px;
+}
+.suvs_button:hover {
+  background-color: #004241;
+  cursor: pointer;
+  color: #f2f2f2;
+}
+
+.luxury {
+  background-color: #004241;
+  max-width: 300px;
+  border-radius: 0px 10px 10px 0px;
+  margin-top: 10px;
+}
+.luxury_image {
+  max-width: 70px;
+  max-height: 70px;
+  object-fit: cover;
+  padding: 40px 20px 0px 40px;
+}
+.luxury_heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #f2f2f2;
+  padding: 50px 20px 0px 40px;
+}
+.luxury_description {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 50px 50px 0px 40px;
+  line-height: 20px;
+}
+.luxury_button {
+  border: 1px solid #f2f2f2;
+  border-radius: 40px;
+  color: #006970;
+  background-color: #f2f2f2;
+  padding: 13px 28px 13px 28px;
+  margin: 80px 60px 40px 80px;
+}
+.luxury_button:hover {
+  background-color: #e38826;
+  cursor: pointer;
+  color: #f2f2f2;
+}
+
+.footer {
+  font-size: 11px;
+  text-align: right;
+  color: #004241;
+  margin: 30px;
+  padding-right: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,165 @@
+
+// Fonts
+$font-heading: 'Big Shoulders Display', cursive;
+$font-paragraphs: 'Lexend Deca', sans-serif;
+
+// Card colours
+$orange: hsl(31, 77%, 52%);
+$cyan: hsl(184, 100%, 22%);
+$dark_cyan: hsl(179, 100%, 13%);
+
+// Text / Background / Button - colours
+$white: hsla(0, 0%, 100%, 0.75);
+$gray: hsl(0, 0%, 95%);
+
+.screen {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    background-color: $gray;
+    box-sizing: border-box;    
+}
+
+.title {
+    font-family: $font-heading;
+    font-size: 80px;
+    text-align: center;
+    margin: 60px;
+    color: $dark_cyan;
+}
+
+// Cards Position
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Cards styles
+.sedans {
+    background-color: $orange;
+    max-width: 300px;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: 10px;
+
+    &_image {
+        max-width: 70px;
+        max-height: 70px;
+        object-fit: cover;
+        padding: 40px 20px 0px 40px;
+    }
+    &_heading {
+        font-family: $font-heading;
+        font-size: 30px;
+        letter-spacing: 1px;
+        color: $gray;
+        padding: 50px 20px 0px 40px;
+    }
+    &_description {
+        font-family: $font-paragraphs;
+        color: $white;
+        padding: 50px 50px 0px 40px;
+        line-height: 20px;
+    }
+    &_button {
+        border: 1px solid $gray;
+        border-radius: 40px;
+        color: $orange;
+        background-color: $gray;
+        padding: 13px 28px 13px 28px;
+        margin: 80px 60px 40px 80px;
+        &:hover {
+            background-color: $cyan;
+            cursor: pointer;
+            color: $gray;            
+        }
+    }
+}
+
+.suvs {
+    background-color: $cyan;
+    max-width: 300px;
+    margin-top: 10px;
+
+    &_image {
+        max-width: 70px;
+        max-height: 70px;
+        object-fit: cover;
+        padding: 40px 20px 0px 40px;
+    }
+    &_heading {
+        font-family: $font-heading;
+        font-size: 30px;
+        letter-spacing: 1px;
+        color: $gray;
+        padding: 50px 20px 0px 40px;
+    }
+    &_description {
+        font-family: $font-paragraphs;
+        color: $white;
+        padding: 50px 50px 0px 40px;
+        line-height: 20px;
+    }
+    &_button {
+        border: 1px solid $gray;
+        border-radius: 40px;
+        color: $cyan;
+        background-color: $gray;
+        padding: 13px 28px 13px 28px;
+        margin: 80px 60px 40px 80px;
+        &:hover {
+            background-color: $dark_cyan;
+            cursor: pointer;
+            color: $gray;            
+        }
+    }
+}
+
+.luxury {
+    background-color: $dark_cyan;
+    max-width: 300px;
+    border-radius: 0px 10px 10px 0px;
+    margin-top: 10px;
+
+    &_image {
+        max-width: 70px;
+        max-height: 70px;
+        object-fit: cover;
+        padding: 40px 20px 0px 40px;
+    }
+    &_heading {
+        font-family: $font-heading;
+        font-size: 30px;
+        letter-spacing: 1px;
+        color: $gray;
+        padding: 50px 20px 0px 40px;
+    }
+    &_description {
+        font-family: $font-paragraphs;
+        color: $white;
+        padding: 50px 50px 0px 40px;
+        line-height: 20px;
+    }
+    &_button {
+        border: 1px solid $gray;
+        border-radius: 40px;
+        color: $cyan;
+        background-color: $gray;
+        padding: 13px 28px 13px 28px;
+        margin: 80px 60px 40px 80px;
+        &:hover {
+            background-color: $orange;
+            cursor: pointer;
+            color: $gray;            
+        }
+    }
+}
+
+// Footer styles
+.footer {
+    font-size: 11px;
+    text-align: right;
+    color: $dark_cyan;
+    margin: 30px;
+    padding-right: 20px;
+}
