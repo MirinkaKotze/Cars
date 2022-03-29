@@ -3,9 +3,11 @@ Frontend Mentor Challenge - Column
 
 3-column preview card component
 
-Your challenge is to build out the 3-column preview card component and get it looking as close to the design as possible.
+Challenge: 
+Build out the 3-column preview card component and get it looking as close to the design as possible.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+Write your styles using a pre-processor, such as Sass.
+Train your eye for detail by getting your solution as close to the design as you can.
 
 Your users should be able to:
   View the optimal layout depending on their device's screen size
