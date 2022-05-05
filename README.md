@@ -1,6 +1,8 @@
 # Cars
 Frontend Mentor Challenge - Column
 
+Live Page URL: https://mirinkakotze.github.io/Cars/
+
 3-column preview card component
 
 Challenge: 
